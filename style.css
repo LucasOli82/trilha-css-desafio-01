@@ -6,7 +6,7 @@ body {
 
 h2 {
   font-size: 2rem;
-  color: #33A8DB;
+  color: lightseagreen;
   font-weight: bold;
   letter-spacing: 4px;
   text-transform: uppercase;
@@ -42,7 +42,7 @@ section {
   font-weight: 900;
   text-transform: uppercase;
   color: transparent;
-  background: -webkit-linear-gradient(#33A8DB, #1472B7);
+  background: -webkit-linear-gradient(#2bfff4, #000000);
   background-clip: text;
   -webkit-background-clip: text;
 }
@@ -53,7 +53,7 @@ section {
 }
 
 .banner .logo {
-  background-color: rgba(0, 0, 0, .2);
+  background-color: rgba(93, 139, 116, 0.2);
   height: 260px;
   width: 260px;
   margin: auto;
@@ -70,14 +70,14 @@ section {
 }
 
 .banner .banner-content button {
-  color: #31A8DD;
+  color: lightseagreen;
   font-size: 1rem;
   font-weight: bold;
   padding: 16px 32px;
   text-transform: uppercase;
   letter-spacing: 4px;
   background-color: transparent;
-  border-image: linear-gradient(#3BA1CD, #1572B7);
+  border-image: linear-gradient(#00fff2, #000a09);
   border-image-slice: 10;
   border-radius: 30px;
 }
@@ -92,24 +92,24 @@ section {
 }
 
 #course-content .modules-list .module {
-  color: white;
+  color: rgb(32, 28, 245);
   width: 530px;
   margin: 0 auto 24px;
-  border: 1px solid #33A8DB;
-  background-color: #252525;
+  border: 1px solid lightgreen;
+  background-color: lightseagreen;
   padding: 16px;
   border-radius: 100px;
   box-shadow: inset -5px 6px 8px rgba(0, 0, 0, .7);
 }
 
 #course-content .modules-list .module span {
-  color: #33A8DB;
+  color: black;
 }
 
 #transform-world {
   height: 560px;
   background-size: cover;
-  background-image: url("assets/images/woman-code.png");
+  background-image: url(https://profdanielbrandao.wordpress.com/wp-content/uploads/2019/08/microsoft-bosque-programming-language-1.jpg);
   background-attachment: fixed;
   border-top: 1px solid #33A8DB80;
   border-bottom: 1px solid #33A8DB80;
@@ -121,12 +121,13 @@ section {
   font-size: 2.5rem;
   text-transform: lowercase;
   max-width: 250px;
-  text-shadow: 3px 2px #33A8DB;
+  text-shadow: 3px 2px #485a56;
 }
 
 #professional-challenges {
   text-align: center;
   width: 800px;
+  color: #63f5f5;
 }
 
 #professional-challenges img {
@@ -145,7 +146,7 @@ footer .dio-logo {
 }
 
 footer a {
-  color: #33A8DB;
+  color: #beff0b;
   font-weight: bold;
   text-decoration: none;
 }
